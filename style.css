@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(239, 235, 235) !important;
+}
+a{
+    text-decoration: none !important;
+}
+/*----------------- Navigation Bar--------------------------- */
+/* #navigation{
+    
+} */
+
+#navigation .navbar {
+    /* height: 76px; */
+    margin: 0px;
+    padding: 0;
+
+    background-color: rgb(235, 184, 64) !important;
+    /* rgb(193, 68, 68) */
+    box-shadow: 10px 0px 20px 10px;
+}
+
+#navigation .navbar-brand {
+    /* padding-right: 10px; */
+    /* border: 2px solid white; */
+}
+
+#navigation .navbar-brand img {
+    width: 70px;
+    height: 70px;
+
+    margin-right: 3px;
+}
+
+#navigation .navbar-brand .brand-name {
+    padding: 3px 5px;
+    font-weight: 900;
+}
+
+#navigation ul a {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: white;
+}
+
+#navigation ul a:hover {
+    border: 2px solid rgb(70, 68, 68);
+    border-radius: 15px;
+
+    color: rgb(193, 68, 68);
+    background-color: white;
+
+    box-shadow: 2px 2px 1px rgb(70, 68, 68);
+
+    /* transform: translateY(8px); */
+}
+
+#navigation ul a.active {
+    border: 2px solid rgb(70, 68, 68);
+    border-radius: 15px;
+
+    color: rgb(193, 68, 68);
+    background-color: white;
+
+    box-shadow: 2px 2px 1px rgb(70, 68, 68);
+
+    transform: translateY(8px);
+}
+
+/* #navigation .search-menu{
+    width: 500px;
+    text-align: center;
+} */
+
+#navigation .search-bar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+#navigation .search-icon:active {
+
+    transform: scale(1.5, 1.5);
+}
+
+@media (max-width:768px) {
+
+    #navigation .search-menu {
+        margin: 5px auto;
+
+    }
+}
+
+.login-button {
+    margin: 5px auto;
+    /* display: inline; */
+    visibility: hidden;
+}
+
+@media (max-width:406px){
+    
+    #navigation .button1 {
+        /* margin: 5px auto; */
+        display: none;
+    }
+    .login-button {
+        margin: 5px auto;
+        /* display: inline; */
+        visibility: visible;
+    }
+}
+
+/*------------------ Home Page Content------------------------------ */
+#photoslider img {
+    margin: 80px 0px 5px;
+    /* height: ; */
+}
+
+.a1:hover {
+    transition-duration: 1s;
+    transform: scale(1.1, 1.1);
+}
+
+
+/*------------------ Go To Top------------------------------ */
+#go-top {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
+@media (max-width:768px) {
+    #go-top {
+        visibility: hidden;
+    }
+}
+
+/* ------------ for thumbnail image------------ */
+
+@media (max-width:576px) {   
+    .thumbnail {
+        padding: .25rem;
+        background-color: #fff;
+        border: 1px solid var(--bs-border-color);
+        border-radius: .375rem;
+        max-width: 100%;
+        height: auto
+    }
+}
+
+/* -------------- Adverticement -------------------- */
+@media (max-width:768px) {
+    #ads{
+       display: none;
+    }
+}
+/* #ads img{
+    display: block;
+} */
+/* #ads .ad1{
+    
+    visibility: visible;
+}
+#ads .ad2, .ad3{
+   
+    visibility: hidden;
+}
+
+#ads .ad1{
+    animation: ad1 5s infinite;
+}
+#ads .ad2{
+    animation: ad2 5s infinite;
+}
+#ads .ad3{
+    animation: ad3 5s infinite;
+}
+
+@keyframes ad1 {
+    0%{visibility: visible;}
+    50%{visibility: hidden;}
+    100%{visibility: hidden;}
+}
+@keyframes ad2{
+    0%{visibility: hidden;}
+    50%{visibility: visible;}
+    100%{visibility: hidden;}
+}
+@keyframes ad3{
+    0%{visibility: hidden;}
+    50%{visibility: hidden;}
+    100%{visibility: visible;}
+}
+
+@media (max-width:576px) {
+    #ads{
+        visibility: hidden;
+    }
+} */
